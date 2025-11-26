@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portifolio.css">
+    <title>Lorena SR</title>
+</head>
+<body>
+<header>
+
+<section class="navegacao">
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#sobremim">Sobre Mim</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+    </nav>
+</section>
+</header>
+
+<main>
+    <br>
+    <br>
+    <br>
+    <div class="principal" id="home">
+    <p>Oie! eu sou</p>
+   <h1>Lorena S. Rodrigues</h1>
+   <p class="estudante">Estudante de Desenvolvimento Web</p>
+   </div>
+
+   <figure id="fig1">
+    <img src="cam1.jpg" onmouseover="this.src='cogu.jpeg'" onmouseout="this.src='cam1.jpg'" alt="Minha foto">
+    <figcaption></figcaption>
+   </figure>
+</main>
+
+<section class="container1">
+   
+<div id="sobremim" class="sobre">
+    <h2>Sobre Mim</h2>
+    <p>Meu nome é Lorena Silva Rodrigues, tenho 16 anos<em>(2025)</em>e meu mbti é ENFJ. Nasci no dia 8 de março, no dia das mulheres(e acho isso incrível).</p>
+    <p>Me considero uma pessoa extrovertida e curiosa. Por conta dessa curiosidade já me interessei por diversos assuntos(mesmo não me aprofundando neles), e como exemplo, posso citar: idiomas, projetos, músicas e esportes.</p>
+</div>
+</section>
+
+<section class="container2">
+<div id="habilidades" class="habil">
+    <h2>Habilidades</h2>
+    <h3>Hard Skills</h3>
+    <ul class="hard-list">
+        <li>Inglês nível B2</li>
+        <li>Excel básico</li>
+        <li>Powerpoint básico</li>
+        <li>HTML</li>
+        <li>CSS</li>
+    </ul>
+    <h3>Soft Skills</h3>
+    <ul class="soft-list">
+        <li>Boa comunicação</li>
+        <li>Responsabilidade</li>
+        <li>Trabalho em equipe</li>
+        <li>Empatia</li>
+    </ul>
+</div>
+</section>
+
+<section class="container3">
+<div id="hobbies" class="hobbie">
+    <h2>Hobbies</h2>
+    <p>Uma das coisas mais importante para mim são as <strong><em>músicas</em></strong>, então, escutar elas, mesmo que repetidamente, me faz funcionar. Não me prendendo só a isso, busco criar boas memórias, e consequentemente, registra-las. E foi assim que eu criei um amor por <strong><em>câmeras</em></strong> em geral. Registrar momentos com vídeos e fotos se tornou um objetivo.</p>
+</div>
+</section>
+
+<section class="container4" id="projetos">
+<div class="projects">
+    <h2>Projetos</h2>
+    <div class="group-project">
+        <h3>Projeto em Grupo</h3>
+        <p>Projeto criativo: InnoHelmet, um site de venda de capacetes inovadores.</p>
+        <img src="InnoHelmet.png" alt="SITE INNOHELMET">
+        <br>
+        <br>
+        <a href="http://127.0.0.1:5500/index.html"><button class="btn-project1" target="_blank">Veja mais</button></a>
+    </div>
+    <div class="solo-project">
+        <h3>Projeto Individual</h3>
+        <p>Este portifólio.</p>
+        <img src="portifolio-img.png" alt="PORTIFOLIO LORENASR">
+        <br>
+        <br>
+       <a href="#"><button class="btn-project2" target="_blank">Veja mais</button></a>
+    </div> 
+</div>
+</section>
+
+<section id="contato" class="cont">
+    <div class="contato">
+<h2>Contato</h2>
+<form action="https://formsubmit.co/lorena.sr008@gmail.com" method="POST" class="form">
+    <label for="name">Nome</label>
+     <input type="text" name="name" id="name" required>
+
+     <label for="email">E-mail</label>
+     <input type="email" name="email" id="email" required>
+
+     <label for="message">Mensagem</label>
+     <textarea name="message" id="message" placeholder="Escreva aqui..." required></textarea>
+
+     <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html">
+     <input type="hidden" name="_captcha" value="false">
+     <button class="btn-form" type="submit">Enviar</button>
+     </div>
+</form>
+</section>
+
+<section class="container5">
+<div class="redes">
+    <a href="https://www.instagram.com/lor3nasr_/" target="_blank"><img src="instagram.png" alt="instagram" class="insta"></a>
+    <a href="https://www.linkedin.com/in/lorena-s-b49764359" target="_blank"><img src="linkedin.png" alt="linkedin" class="link"></a>
+    <a href="https://github.com/LorenaSR0" target="_blank"><img src="github.png" alt="github" class="git"></a>
+</div>
+</section>
+
+<footer>&copy; 2025 Lorena Silva Rodrigues. Todos os direitos reservados.</footer>
+</body>
+</html>
